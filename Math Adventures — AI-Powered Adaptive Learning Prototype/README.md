@@ -1,13 +1,24 @@
-# Math Adventures — AI-Powered Adaptive Learning Prototype
+# 🧮 Math Adventures — AI-Powered Adaptive Learning Prototype
 
-## Overview
-A minimal adaptive-learning prototype for children (ages 5–10) practicing basic math. The system generates puzzles, tracks correctness and time, and adapts difficulty either via a rule-based engine or a small optional ML model.
+An interactive AI-powered math learning platform that dynamically adjusts question difficulty based on learner performance.  
+Built using **Streamlit**, this prototype demonstrates personalized adaptive learning through rule-based and machine learning approaches.
 
-## Repo structure
-See top-level README or the `src/` folder.
+---
 
-## Setup
-1. Create a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate    # on Windows: venv\Scripts\activate
+## 🚀 Features
+
+- 🎯 **Adaptive Difficulty:** Adjusts question level (Easy / Medium / Hard) automatically based on accuracy and response time.
+- 🧠 **Dual Engine:** Choose between Rule-Based or ML-based adaptation.
+- 🟩 **Progress Bar:** Shows visual session progress.
+- 💬 **Feedback:** Displays motivational messages (“✅ Correct!” / “❌ Incorrect”) without revealing answers.
+- 🟢 **Color-Coded Difficulty:** Easy 🟢 | Medium 🟡 | Hard 🔴.
+- 🔁 **Reset Anytime:** Restart session instantly from sidebar.
+- 📊 **Session Summary:** Available only after session completion (via sidebar button).
+- 📈 **Performance Analytics:** View accuracy, average time, and difficulty transition chart.
+- ⬇️ **Export Results:** Download session data as a CSV file.
+
+---
+
+## 🧱 Project Structure
+
+
